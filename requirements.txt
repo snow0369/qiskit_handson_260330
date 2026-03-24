@@ -1,0 +1,6 @@
+qiskit~=2.3.0
+matplotlib~=3.10.8
+qiskit[visualization]~=2.3.0
+jupyter~=1.1.1
+qiskit-ibm-runtime~=0.45.1
+python-dotenv
