@@ -4,3 +4,4 @@ qiskit[visualization]~=2.3.0
 jupyter~=1.1.1
 qiskit-ibm-runtime~=0.45.1
 python-dotenv
+qiskit-aer~=0.17
