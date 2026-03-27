@@ -19,9 +19,10 @@ BRANCH = "main"  # better: pin to a tag or commit SHA
 # Notebook files in the order you want them merged.
 NOTEBOOKS = [
     "0_setup-and-intro.ipynb",
-    "2_vqe_tutorial_revised.ipynb",
+    "1_qiskit_2x_core_workflow.ipynb",
+    "2_vqe_sqd_tutorial.ipynb",
     "advanced-1_PrecalculatedHamiltonians.ipynb",
-    "advanced-2_CustomTargetBackend.ipynb",
+    "advanced-2_ScalableSubspaceSampling.ipynb",
 ]
 
 # Output merged notebook.
@@ -30,7 +31,7 @@ OUTPUT_NOTEBOOK = "combined_colab.ipynb"
 # Files that must exist in the Colab runtime.
 FILES_TO_DOWNLOAD = [
     "utils.py",
-    "linear_h_chains_bk_2q_reduced.json",
+    "linear_h_chains_jw.json",
     "requirements.txt"
 ]
 
